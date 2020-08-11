@@ -1,0 +1,29 @@
+.summary-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.summary-box {
+    width: 100%;
+}
+
+.summary-original-price {
+    color: black;
+}
+
+.summary-discount {
+    color: green;
+}
+
+.summary-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.summary-number {
+    font-weight: bold;
+}

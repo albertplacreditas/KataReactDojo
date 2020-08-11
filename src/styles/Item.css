@@ -1,0 +1,37 @@
+.item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    width: 160px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px 1px #d6d6d6;
+    cursor: pointer;
+}
+
+.item-wrapper:hover {
+    background-color: #f6f7f6;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item-price {
+    font-size: 26px;
+}
+
+.item-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    background-color: #11BB77;
+}
